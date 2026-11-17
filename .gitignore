@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+version_info.txt
+.pytest_cache/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+*.log

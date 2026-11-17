@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chạy Net Tools",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "nettools",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}

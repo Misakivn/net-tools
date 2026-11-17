@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build NetTools.exe",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File ${workspaceFolder}\\build.ps1",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Kiểm thử (pytest)",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest -q",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
